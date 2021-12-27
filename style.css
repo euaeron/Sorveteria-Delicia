@@ -1,32 +1,37 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-image: linear-gradient(to bottom right, #00F490, #00BBC9);
+    background-image: linear-gradient(to bottom right, #00f490, #00bbc9);
 }
+
 h1 {
     font-family: 'Abril Fatface', cursive;
 }
+
 .jumbotron {
-    background-color: rgba(0, 0, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
-.dropshadow {
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.164);
+
+.drop-shadow {
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.316);
 }
+
 .lead {
     color: white;
     font-size: 1.5rem;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.316);
 }
+
 .btn-outline-light {
-    border-color: white ;
+    border-color: white;
 }
+
 .btn-outline-light:hover {
-    background-color: rgba(255, 255, 255, 0.171);
+    background-color: rgba(255, 255, 255, 0.152);
 }
+
 .cards {
     display: flex;
-}
-.card {
-    margin: auto;
-    margin-top: 35px;
-    margin-bottom: 55px;
+    justify-content: space-between;
+    margin: 104px;
 }
